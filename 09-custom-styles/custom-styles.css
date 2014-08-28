@@ -1,0 +1,19 @@
+.crocodoc-viewer {
+  height: 100%;
+}
+
+.crocodoc-viewport {
+  background-color: #fbfefa;
+}
+
+.crocodoc-page {
+  padding: 1em 200px;
+}
+
+.crocodoc-page-content {
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.crocodoc-page-loading .crocodoc-page-content {
+  background: #fff url(https://raw.githubusercontent.com/lakenen/view-school-assets/master/spinner.gif) center center no-repeat;
+}

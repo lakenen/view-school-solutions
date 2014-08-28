@@ -1,0 +1,6 @@
+# write your cURL command below this line
+curl "https://view-api.box.com/1/documents" \
+-H "Authorization: Token <TOKEN>" \
+-H "Content-Type: application/json" \
+-X "POST" \
+-d '{"url": "https://github.com/lakenen/view-school-assets/raw/master/1.pdf"}'

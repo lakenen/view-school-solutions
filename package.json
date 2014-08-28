@@ -1,0 +1,30 @@
+{
+  "name": "view-school-solutions",
+  "version": "0.0.0",
+  "description": "Solutions to the Box View School exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Cameron Lakenen <cameron@lakenen.com>",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "./replace-token"
+    ]
+  },
+  "dependencies": {
+    "through": "^2.3.4",
+    "view-school": "latest"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lakenen/view-school-solutions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lakenen/view-school-solutions/issues"
+  },
+  "homepage": "https://github.com/lakenen/view-school-solutions"
+}
