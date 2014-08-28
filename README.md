@@ -5,8 +5,11 @@ Official solutions to the Box View API [view-school](https://github.com/lakenen/
 
 ## Running Solutions
 
-First, set your Box View API token as an environment variable called `BOX_VIEW_API_TOKEN`. Then run:
+Clone this repo locally (or [download](https://github.com/lakenen/view-school-solutions/archive/master.zip) and extract it somewhere), then navigate to the directory in a terminal.
 
+Set your Box View API token as an environment variable called `BOX_VIEW_API_TOKEN`.
+
+Then run:
 ```
 npm install
 npm start
