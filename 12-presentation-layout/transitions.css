@@ -1,0 +1,26 @@
+/* NOTE: vendor prefixes have been removed in this example, but are still
+necessary in some browsers */
+
+/* Make all pages visible and apply a transition on opacity and transform */
+
+/* NOTE: the full selector is necessary here in order to override the
+visibility property on `.crocodoc-layout-presentation .crocodoc-page` */
+.crocodoc-layout-presentation .crocodoc-page {
+  transition: opacity 0.2s,
+              transform 0.4s;
+  visibility: visible;
+}
+
+/* Transform 100% to the left and transparentize */
+.crocodoc-page-before {
+  transform: translateX(-100%);
+  transition-delay: 0.2s, 0s;
+  opacity: 0;
+}
+
+/* Transform 100% to the right and transparentize */
+.crocodoc-page-after {
+  transform: translateX(100%);
+  transition-delay: 0.2s, 0s;
+  opacity: 0;
+}
